@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: team-booking-sv_SV\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 14:56+0200\n"
-"PO-Revision-Date: 2019-02-17 22:21+0100\n"
+"PO-Revision-Date: 2019-02-17 22:45+0100\n"
 "Last-Translator: admin <jollyxroger@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "Language: sv_SE\n"
@@ -5296,7 +5296,7 @@ msgstr "Klicka på en bokningsbar tid"
 
 #: src/TeamBooking/Frontend/Schedule.php:160
 msgid "available"
-msgstr "tillgängliga"
+msgstr "tillgänglig"
 
 #: src/TeamBooking/Frontend/Schedule.php:167
 msgid "booked"

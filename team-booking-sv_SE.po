@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: team-booking-sv_SV\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-08 14:56+0200\n"
-"PO-Revision-Date: 2019-02-17 22:45+0100\n"
+"PO-Revision-Date: 2019-02-18 12:40+0100\n"
 "Last-Translator: admin <jollyxroger@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "Language: sv_SE\n"
@@ -176,7 +176,7 @@ msgstr "Felloggar rensas framgångsrikt!"
 #: includes/tb_ajax_calls.php:148 includes/tb_ajax_calls.php:204
 #, php-format
 msgid "Step %d of %d"
-msgstr "Steg% d av% d"
+msgstr "Steg % d av % d"
 
 #: includes/tb_ajax_calls.php:151
 msgid "summary"
@@ -4452,7 +4452,7 @@ msgstr "Tillgänglig"
 
 #: src/TeamBooking/Admin/SlotsTable.php:258
 msgid "Booked/Sold-out"
-msgstr "Bokad/Slutsåld"
+msgstr "Bokad"
 
 #: src/TeamBooking/Admin/SlotsTable.php:268
 msgid "With reservations"
@@ -4534,7 +4534,7 @@ msgstr "Färg på bokningsbar tidslucka"
 
 #: src/TeamBooking/Admin/Style.php:113
 msgid "Soldout slot color"
-msgstr "Färg på slutsåld tidslucka"
+msgstr "Färg på bokad tidslucka"
 
 #: src/TeamBooking/Admin/Style.php:119
 msgid "Border color"
@@ -4903,8 +4903,7 @@ msgstr "Din betalning lyckades!"
 #, php-format
 msgid ""
 "Your reservations are grouped under the order %s, please take note of it."
-msgstr ""
-"Dina reservationer är grupperade under ordern %s, vänligen ta del av den."
+msgstr "Vi har skickat en bekräftelse till din e-post."
 
 #: src/TeamBooking/Frontend/Components/AfterPayment.php:81
 msgid ""
@@ -5192,11 +5191,11 @@ msgstr "Att betala nu"
 
 #: src/TeamBooking/Frontend/ErrorMessages.php:27
 msgid "Oops, there was an error making the reservation!"
-msgstr "Oops, there was an error making the reservation!"
+msgstr "Något gick fel…"
 
 #: src/TeamBooking/Frontend/ErrorMessages.php:41
 msgid "Your email is invalid, please check it and retry!"
-msgstr "Din e-postadress är ogiltig, kontrollera och pröva igen!"
+msgstr "Din e-postadress är ogiltig – kontrollera och pröva igen!"
 
 #: src/TeamBooking/Frontend/ErrorMessages.php:51
 msgid "You have already booked this..."
@@ -5206,9 +5205,7 @@ msgstr "Du har redan bokat denna…"
 msgid ""
 "Sorry, this service is full! Maybe someone booked the last slot right now, "
 "just a moment before you :("
-msgstr ""
-"Tyvärr, tjänst är fullbokad. Den tid du försökte boka kan ha bokats av någon "
-"annan alldeles nyss."
+msgstr "Den tiden bokades av någon annan alldeles nyss . Försök igen :("
 
 #: src/TeamBooking/Frontend/ErrorMessages.php:71
 msgid ""
@@ -5220,7 +5217,7 @@ msgstr ""
 
 #: src/TeamBooking/Frontend/ErrorMessages.php:81
 msgid "Sorry, you should contact the administrator"
-msgstr "Tyvärr fungerar det inte. Du bör kontakta administratören"
+msgstr "Du bör kontakta administratören"
 
 #: src/TeamBooking/Frontend/ErrorMessages.php:93
 msgid ""
@@ -5242,8 +5239,8 @@ msgid ""
 "Sorry, the cart time is expired and the slots were removed from it. Please "
 "refresh the page."
 msgstr ""
-"Tyvärr har kund vagns tiden löpt ut och facken har tagits bort från den. "
-"Uppdatera sidan."
+"Tyvärr har tiden löpt ut och dagarna tagits bort från listan. Uppdatera "
+"sidan för att fortsätta."
 
 #: src/TeamBooking/Frontend/ErrorMessages.php:129
 #: src/TeamBooking/Frontend/ErrorMessages.php:131
@@ -5304,7 +5301,7 @@ msgstr "bokad"
 
 #: src/TeamBooking/Frontend/Schedule.php:169
 msgid "sold out"
-msgstr "slutsåld"
+msgstr "bokad"
 
 #: src/TeamBooking/Frontend/Schedule.php:365
 msgid ""
